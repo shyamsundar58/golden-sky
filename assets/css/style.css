@@ -280,6 +280,7 @@ blockquote .quote-icon {
 
 .pt-120 {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 @media only screen and (max-width: 991px) {
   .pt-120 {
@@ -454,9 +455,9 @@ blockquote .quote-icon {
   margin-bottom: 20px;
 }
 
-.mb-30 {
+/* .mb-30 {
   margin-bottom: 30px;
-}
+} */
 
 .mb-40 {
   margin-bottom: 40px;
@@ -5080,13 +5081,13 @@ option {
   background-color: transparent;
   border: none;
   color: white;
-  font-size: 24px;
+  font-size: 19px;
   font-weight: 600;
   border-top: 1px dashed rgba(255, 255, 255, 0.3);
   border-radius: 0;
   width: 100%;
   text-align: left;
-  padding: 28px 0;
+  padding: 9px 0;
   position: relative;
 }
 .overview-tab .nav-tabs .nav-link span {
@@ -6198,9 +6199,9 @@ option {
   overflow: hidden;
   margin: -20px 0 0 0;
 }
-.feature--style div[class*="col"]:nth-of-type(4n + 4) .feature-item {
+/* .feature--style div[class*="col"]:nth-of-type(4n + 4) .feature-item {
   box-shadow: none;
-}
+} */
 .feature--style .feature-item {
   background-color: transparent;
   padding: 25px;

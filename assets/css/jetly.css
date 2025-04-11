@@ -3091,7 +3091,7 @@ html[dir="rtl"] .main-slider-three__img img {
   top: 0;
   bottom: 0;
   right: 0;
-  width: 363px;
+  /* width: 363px; */
   background-color: var(--jetly-white);
   z-index: -1;
 }

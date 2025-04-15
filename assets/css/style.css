@@ -6023,7 +6023,7 @@ option {
   left: 10px;
   width: 80px;
   height: 80px;
-  background-color: rgba(220, 187, 135, 0.5);
+  /* background-color: rgba(220, 187, 135, 0.5); */
   border-radius: 50%;
   z-index: -1;
   transition: all 0.3s;
@@ -6214,7 +6214,7 @@ option {
   border: none;
 }
 .feature--style .feature-item:hover .feature-icon::before {
-  background-color: rgba(220, 187, 135, 0.5);
+  /* background-color: rgba(220, 187, 135, 0.5); */
 }
 .feature--style .feature-item:hover .feature-content p {
   color: #3d3d3d;

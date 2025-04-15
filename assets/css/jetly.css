@@ -2078,7 +2078,7 @@ ul {
 
 .main-slider__title {
   position: relative;
-  /* font-size: 100px; */
+  font-size: 33px;
   color: var(--jetly-white);
   font-weight: 700;
   /* line-height: 90px; */
@@ -2349,7 +2349,7 @@ ul {
 
 .main-slider-three .container {
   position: relative;
-  padding-top: 334px;
+  padding-top: 236px;
   padding-bottom: 260px;
   z-index: 30;
 }
@@ -2390,6 +2390,7 @@ ul {
 /* Background Video Styling */
 .video-background {
   width: 100%;
+  filter: blur(5px);
   /* height: 100%; */
   object-fit: cover;
   position: absolute;

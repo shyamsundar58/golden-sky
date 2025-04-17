@@ -448,7 +448,7 @@ ul {
   animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  background-image: url(../images/loader.png);
+  background-image: url(../images/GoldenSkyICON-337X337loader.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 60px auto;
@@ -2060,7 +2060,7 @@ ul {
 .main-slider__sub-title {
   position: relative;
   display: inline-block;
-  font-size: 20px;
+  font-size: 24px;
   color: var(--jetly-white);
   font-weight: 500;
   line-height: 20px;
@@ -2078,7 +2078,7 @@ ul {
 
 .main-slider__title {
   position: relative;
-  font-size: 33px;
+  font-size: 24px;
   color: var(--jetly-white);
   font-weight: 700;
   /* line-height: 90px; */
@@ -2389,6 +2389,16 @@ ul {
 /*  */
 /* Background Video Styling */
 .video-background {
+  width: 100%;
+  /* filter: blur(5px); */
+  /* height: 100%; */
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.video-background-who-we-are {
   width: 100%;
   filter: blur(5px);
   /* height: 100%; */
@@ -2773,6 +2783,7 @@ html[dir="rtl"] .main-slider-three__img img {
 }
 
 .about-one__img {
+  margin-top: 22%;
   position: relative;
   display: block;
   overflow: hidden;

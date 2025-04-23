@@ -2067,9 +2067,9 @@ ul {
 .main-slider__sub-title {
   position: relative;
   display: inline-block;
-  font-size: 24px;
+  font-size: 44px;
   /* color: var(--jetly-white); */
-  font-weight: 500;
+  font-weight: 700;
   line-height: 20px;
   opacity: 0;
   visibility: hidden;
@@ -4751,6 +4751,24 @@ html[dir="rtl"] .main-slider-three__img img {
   display: block;
   margin-top: 8px;
 }
+
+.footer-widget__about img {
+  width: 100%;
+  max-width: 200px; 
+  height: auto;
+}
+/* .footer-widget__about img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain; 
+} */
+/* .footer-widget__about img {
+  width: 150px; 
+} */
+
+
+
+
 
 .footer-widget__logo {
   position: relative;

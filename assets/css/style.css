@@ -1323,6 +1323,7 @@ h4 a:hover {
   color: #dcbb87;
 }
 .section-header .section-title {
+  color: #29566e;
   margin-bottom: 0;
   position: relative;
   font-weight: 700;
@@ -5067,7 +5068,7 @@ option {
 .overview-tab {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: flex-end;
+  justify-content: center;
 }
 @media only screen and (max-width: 767px) {
   .overview-tab {
@@ -5137,12 +5138,9 @@ option {
   display: none;
 }
 
-.overview-thumb {
-  position: relative;
-  z-index: 2;
-  border-radius: 10px;
-  overflow: hidden;
-}
+/* .overview-thumb { */
+ 
+/* } */
 .overview-thumb::before {
   position: absolute;
   content: '';
@@ -5191,29 +5189,38 @@ option {
   margin-bottom: 20px;
 }
 .overview-thumb {
-  position: relative;
+  /* position: relative; */
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* keeps content to the left */
+  justify-content: flex-start; 
+  /* keeps content to the left */
   flex-direction: row;
-  gap: 30px; /* adds spacing between image and content if needed */
+  gap: 30px; 
+  /* adds spacing between image and content if needed */
+
+  position: relative;
+  z-index: 2;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .overview-thumb img {
-  max-width: 100%;
-  height: auto;
-  width: auto;
-  max-height: 400px; 
+  /* max-width: 100%; */
+  /* height: auto; */
+  /* width: auto; */
+  max-height: 535px; 
   object-fit: contain;
   flex-shrink: 0; 
+
+  /* width: 100%; */
+  /* height: auto; */
+  display: block;
+  object-fit: contain; 
 }
 
-.overview-thumb img {
-  width: 100%;
-    height: auto;
-    display: block;
-    object-fit: contain; 
- }
+/* .overview-thumb img {
+
+ } */
 
 .overview-tab-thumb {
   position: relative;
@@ -6282,6 +6289,9 @@ option {
 }
 .feature--style .feature-thumb.two {
   /* margin-top: 10px; */
+  margin-top: 38px;
+}
+.feature-thumb.three {
   margin-top: 38px;
 }
 @media only screen and (max-width: 1199px) {
@@ -7942,6 +7952,7 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
 }
 .service-item .title {
   font-weight: 600;
+  color: #29566e;
 }
 .service-item p {
   color: #19232d;

@@ -5043,7 +5043,7 @@ option {
 
 .overview-area {
   position: relative;
-  padding: 59px 200px;
+  padding: 0 200px;
 }
 @media only screen and (max-width: 1399px) {
   .overview-area {
@@ -5052,7 +5052,7 @@ option {
 }
 @media only screen and (max-width: 1199px) {
   .overview-area {
-    padding: 33px;
+    padding: 0;
   }
 }
 .overview-area .overview-element {
@@ -5068,7 +5068,7 @@ option {
 .overview-tab {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: center;
+  justify-content: flex-end;
 }
 @media only screen and (max-width: 767px) {
   .overview-tab {
@@ -5083,12 +5083,13 @@ option {
   border: none;
   color: white;
   font-size: 19px;
+  /* font-size: 24px; */
   font-weight: 600;
   border-top: 1px dashed rgba(255, 255, 255, 0.3);
   border-radius: 0;
   width: 100%;
   text-align: left;
-  padding: 9px 0;
+  /* padding: 28px 0; */
   position: relative;
 }
 .overview-tab .nav-tabs .nav-link span {
@@ -5114,8 +5115,9 @@ option {
 }
 @media only screen and (max-width: 1650px) {
   .overview-tab .nav-tabs .nav-link {
-    font-size: 16px;
-    padding: 15px 0;
+    font-size: 13px;
+    /* font-size: 16px; */
+    /* padding: 15px 0; */
   }
 }
 .overview-tab .nav-tabs .nav-link:last-child {
@@ -5138,9 +5140,12 @@ option {
   display: none;
 }
 
-/* .overview-thumb { */
- 
-/* } */
+.overview-thumb {
+  position: relative;
+  z-index: 2;
+  border-radius: 10px;
+  overflow: hidden;
+}
 .overview-thumb::before {
   position: absolute;
   content: '';
@@ -5188,39 +5193,9 @@ option {
   font-size: 16px;
   margin-bottom: 20px;
 }
-.overview-thumb {
-  /* position: relative; */
-  display: flex;
-  align-items: center;
-  justify-content: flex-start; 
-  /* keeps content to the left */
-  flex-direction: row;
-  gap: 30px; 
-  /* adds spacing between image and content if needed */
-
-  position: relative;
-  z-index: 2;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
 .overview-thumb img {
-  /* max-width: 100%; */
-  /* height: auto; */
-  /* width: auto; */
-  max-height: 535px; 
-  object-fit: contain;
-  flex-shrink: 0; 
-
-  /* width: 100%; */
-  /* height: auto; */
-  display: block;
-  object-fit: contain; 
+  width: 100%;
 }
-
-/* .overview-thumb img {
-
- } */
 
 .overview-tab-thumb {
   position: relative;
@@ -5266,7 +5241,6 @@ option {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* object-fit: contain; */
 }
 
 .nav-tab-header {
@@ -6039,6 +6013,24 @@ option {
   color: #dfdfdf;
 }
 
+.feature-one__link {
+  display: block;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.feature-one__link * {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.feature-one__link:hover * {
+  color: #29566e; /* Bootstrap primary blue or use any blue you prefer */
+}
+
+
+
 .feature-icon {
   position: relative;
   margin-bottom: 20px;
@@ -6289,7 +6281,7 @@ option {
 }
 .feature--style .feature-thumb.two {
   /* margin-top: 10px; */
-  margin-top: 38px;
+  margin-top: 30px;
 }
 .feature-thumb.three {
   margin-top: 38px;
@@ -6297,7 +6289,7 @@ option {
 @media only screen and (max-width: 1199px) {
   .feature--style .feature-thumb.two {
     display: block;
-    margin-top: 0;
+    margin-top: 24px;
   }
 }
 

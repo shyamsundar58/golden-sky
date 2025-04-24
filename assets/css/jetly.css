@@ -8902,7 +8902,8 @@ html[dir="rtl"] .main-slider-three__img img {
 .contact-page__text a {
   position: relative;
   display: block;
-  color: var(--jetly-gray);
+  color: #000000;
+  /* color: var(--jetly-gray); */
   transition: all 500ms ease;
 }
 

@@ -921,9 +921,17 @@ ul {
   justify-content: space-between;
 }
 .main-menu-three__main-menu-box ul {
-  gap: 15px; /* Adjust the gap between menu items */
+  /* gap: 15px;  */
+  /* Adjust the gap between menu items */
 }
-
+img.mainlogo {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-left: -21px;
+  vertical-align: middle;
+  border-style: none;
+}
 .stricky-header {
   position: fixed;
   z-index: 991;
@@ -1805,9 +1813,12 @@ ul {
 }
 
 .main-menu-three__logo {
-  position: relative;
+  width: 100%;
+    max-width: 200px;
+    height: auto;
+  /* position: relative;
   display: block;
-  padding: 26px 0;
+  padding: 26px 0; */
 }
 
 .main-menu-three__right {
@@ -3345,6 +3356,13 @@ html[dir="rtl"] .main-slider-three__img img {
 /*--------------------------------------------------------------
 # Services One
 --------------------------------------------------------------*/
+
+span.num {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .services-one {
   position: relative;
   display: block;

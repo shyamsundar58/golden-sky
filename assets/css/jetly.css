@@ -701,6 +701,11 @@ ul {
 .main-menu__list li {
   margin-right: 20px; /* Adjust spacing as needed */
 }
+/* Hide all dropdown submenus */
+.main-menu__list .dropdown ul {
+  display: none !important;
+}
+
 
 .main-menu .dropdown ul {
   right: 0;

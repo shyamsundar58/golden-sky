@@ -5205,9 +5205,10 @@ option {
   margin-left: 20px;
 }
 @media only screen and (max-width: 991px) {
-  .overview-tab-thumb {
-    height: 370px;
-  }
+    .overview-tab-thumb
+ {
+        height: 412px;
+    }
 }
 @media only screen and (max-width: 767px) {
   .overview-tab-thumb {
